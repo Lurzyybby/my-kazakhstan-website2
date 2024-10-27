@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fthe-steppe.com%2Fgorod%2Fregiony-kak-menyalas-stolica-i-ee-nazvaniya-s-xix-veka&psig=AOvVaw0u2_dy8ybI1l5SnWn76OC9&ust=1730138964153000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiFvIaUr4kDFQAAAAAdAAAAABAU'); /* Example background image from Unsplash */
+    background-image: url("https://rail-news.kz/uploads/attachments/lugovaya-turksib-657bdd73cbbde.png"); /* Example background image from Unsplash */
     background-size: cover;
     background-position: center;
     color: #fff;
