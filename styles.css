@@ -1,0 +1,88 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+body {
+    background-color: #1e1e1e; /* Темный фон, как в VS Code */
+    color: #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Шапка */
+header {
+    background-color: #007acc; /* Синий цвет, как в VS Code */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Основная часть */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Карточки */
+.card {
+    background-color: #252526; /* Темный серый для карточек */
+    border: 1px solid #3c3c3c;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    color: #569cd6; /* Синий для заголовков */
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #dcdcdc;
+    margin: 10px 0 20px;
+}
+
+button {
+    background-color: #0e639c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1177bb;
+}
+
+/* Футер */
+footer {
+    background-color: #333333;
+    color: #888888;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
